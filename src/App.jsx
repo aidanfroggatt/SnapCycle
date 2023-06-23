@@ -5,8 +5,6 @@ import Home from './pages/Home';
 import Team from './pages/Team';
 import Demo from './pages/Demo';
 import Bottle from './components/Bottle';
-import Can from './components/Can';
-import Phone from './components/Phone';
 
 function App() {
   return (
@@ -18,8 +16,6 @@ function App() {
         <Route path='/team' element={<Team/>} />
         <Route path='/demo' element={<Demo/>} />
         <Route path='/bottle' element={<Bottle/>} />
-        <Route path='/can' element={<Can/>} />
-        <Route path='/phone' element={<Phone/>} />
       </Routes>
     </Router>
     </div>
