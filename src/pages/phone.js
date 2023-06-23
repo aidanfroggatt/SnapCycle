@@ -1,5 +1,5 @@
 import React from 'react';
-import './items.css';
+import '../styles/items.css';
 const Phone = () => {
   return (
     <div>

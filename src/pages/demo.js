@@ -1,8 +1,8 @@
-import './home.css'
+import '../styles/home.css'
 import Reacts from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import TextBlock from '../textblock';
-import blacklogo from '../resources/blacklogo.png'
+import blacklogo from '../assets/blacklogo.png'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Webcam from 'react-webcam';
