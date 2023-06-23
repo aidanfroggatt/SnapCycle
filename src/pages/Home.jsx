@@ -1,6 +1,6 @@
 import '../styles/home.css'
 import {Parallax, ParallaxLayer} from '@react-spring/parallax'
-import TextBlock from '../textblock';
+import HomeInfo from '../components/HomeInfo';
 import blacklogo from '../assets/blacklogo.png'
 import Navbar from '../components/Navbar';
 
@@ -44,7 +44,7 @@ const Home = () => {
           <div class="animation_layer parallax" id=""></div>
         </ParallaxLayer>
         <ParallaxLayer offset={1.3} speed={0.25}>
-          <TextBlock />
+          <HomeInfo />
         </ParallaxLayer>
         <ParallaxLayer offset={2.7} speed={0.0}>
         </ParallaxLayer>
