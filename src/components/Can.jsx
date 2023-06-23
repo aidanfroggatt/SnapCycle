@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/items.css';
-const Phone = () => {
+
+const Can = () => {
   return (
     <div>
-      <h1>Phone</h1>
+      <h1>Can</h1>
     </div>
   );
 };
   
-export default Phone;
+export default Can;

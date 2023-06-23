@@ -1,13 +1,8 @@
 import React from 'react';
 import '../styles/navbar.css';
 import blacklogo from '../assets/blacklogo.png';
-import {
-  Nav,
-  NavLink,
-  Bars,
-  NavMenu,
-} from './NavbarElements';
-  
+import {Bars, Nav, NavLink, NavMenu,} from './NavbarElements';
+
 const Navbar = () => {
   return (
     <>
